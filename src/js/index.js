@@ -1,4 +1,5 @@
-import "style-loader!css-loader!./../css/index.css";
+//import "!style-loader!css-loader!./../css/index.css";
+import "./../css/index.css";
 require(['./common.js','jquery'],(common,$)=>{
     common.initIndex();
     $(function(){
